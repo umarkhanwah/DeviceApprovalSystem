@@ -11,7 +11,7 @@ class CreateDevicesTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up()`
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->id();
